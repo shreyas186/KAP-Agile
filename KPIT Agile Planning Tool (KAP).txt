@@ -1,0 +1,57 @@
+KPIT Agile Planning Tool (KAP)
+------------------------------
+
+Chapter 1 :- KAP Overview
+
+KAP ha backlog features:
+-Sprint backlog
+-product backlog
+-Release Management
+-User story management  (Tracker)
+-Task Management        (Tracker)
+-Epic management        (Tracker)
+
+
+# First thing in agile management is creation of Epic. Then user story and then the task and add relation bw epic to user story and user story to task.
+# Item creation :- Epic
+ While creating epic(It is nothing but setting the tracker). We can, set
+ -subject
+ -description 
+ -status    (Optional)
+ -priority  (Optional)
+ -Assigned to
+ -Target version
+ -checklist
+ -upload files (Max:- 234MB)
+ -watchers (Eg:-Anand Joshi(CTO))
+ -Parent task
+ -Start date and end date
+ -Estimated time
+
+ We can also set it either Public or private.
+
+# After creation, we can edit the above or add anything new.
+
+# Item Creation :- User story
+ while creating user story. We can, set
+ -All of the above used while creating epic.
+ -story point   =   It is based on project requiement we can define sp as the complexcity of the user story.
+ -Release relationship  (Optional)
+
+# Item Creation :- Task
+ while creating Task. We can, set
+ -All of the above used while creating epic.
+
+# Click on items to display all the items created. We can see the relationship is not yet set in any of these items.
+ We can establish these relationships by,
+ -3 tabs of each item is opened and editable.
+ -Copy the id of epic.
+ -Paste it in Parent task of user story.
+ -Similarly, we need to copy id os user story and paste it in task's parent task.
+
+# This is necessary because in backlogs our estimations and effort tracking will go at ur task level.
+
+# Next imp step is to have our product backlog and sprint backlog at our project level. 
+ Goto backlogs in nav bar,
+ -Click on down arrow and click on "New Sprint"
+ 

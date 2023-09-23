@@ -1,7 +1,7 @@
 KPIT Agile Planning Tool (KAP)
 ------------------------------
 
-Chapter 1 :- KAP Overview
+# Chapter 1:-  KAP Overview
 
 KAP ha backlog features:
 -Sprint backlog
@@ -12,8 +12,8 @@ KAP ha backlog features:
 -Epic management        (Tracker)
 
 
-# First thing in agile management is creation of Epic. Then user story and then the task and add relation bw epic to user story and user story to task.
-# Item creation :- Epic
+* First thing in agile management is creation of Epic. Then user story and then the task and add relation bw epic to user story and user story to task.
+ Item creation :- Epic
  While creating epic(It is nothing but setting the tracker). We can, set
  -subject
  -description 
@@ -30,28 +30,61 @@ KAP ha backlog features:
 
  We can also set it either Public or private.
 
-# After creation, we can edit the above or add anything new.
+* After creation, we can edit the above or add anything new.
 
-# Item Creation :- User story
+ Item Creation :- User story
  while creating user story. We can, set
  -All of the above used while creating epic.
  -story point   =   It is based on project requiement we can define sp as the complexcity of the user story.
  -Release relationship  (Optional)
 
-# Item Creation :- Task
+ Item Creation :- Task
  while creating Task. We can, set
  -All of the above used while creating epic.
 
-# Click on items to display all the items created. We can see the relationship is not yet set in any of these items.
+* Click on items to display all the items created. We can see the relationship is not yet set in any of these items.
  We can establish these relationships by,
  -3 tabs of each item is opened and editable.
  -Copy the id of epic.
  -Paste it in Parent task of user story.
  -Similarly, we need to copy id os user story and paste it in task's parent task.
 
-# This is necessary because in backlogs our estimations and effort tracking will go at ur task level.
+* This is necessary because in backlogs our estimations and effort tracking will go at ur task level.
 
-# Next imp step is to have our product backlog and sprint backlog at our project level. 
+* Next imp step is to have our product backlog and sprint backlog at our project level. 
  Goto backlogs in nav bar,
  -Click on down arrow and click on "New Sprint"
- 
+ -Enter name then start and due date.
+
+
+
+
+PDF NOTES:-
+ """
+ KAP – KPIT Agile Planning
+
+• Features:
+• Prepare Product Features, Epics, User Stories and Tasks
+• Product Backlog Definition, Grooming and refinement in the tool
+• Track releases through release
+• Sprint definition through drag and drop
+• Quick task definition for every user story.
+• A detailed Task board to view and manage daily task updates and change status via drag and drop
+• Ability to add impediments in the sprints
+• Burn down charts for sprints
+• Definition Of Done templates definition and application to the user stories
+• Wiki for documenting findings, retrospective details
+• Ability to extend functionality for tailoring the process for every scrum team.
+• Ability to integrate with tools like Gitlab, JIRA, RTC, CODE Beamer
+
+"""
+
+# Chapter 3:-   Git introduction
+• Git is a powerful tool with capabilities of versioning your source code during entire life cycle of your project development.
+• Git provides a non linear approach which means relation between two elements are non sequential or in simple words relation is hierarchical.
+• Git is distributed system and this makes it more powerful in working with and on different component and then communicating within each other to achieve common goal.
+• Distributed system's significance is its ability for concurrency and independent failure of system component.
+• Each system in distributed system can act as a server and can be act as a code collaboration server before even moving changes to remote server or remote repositories
+
+
+# Chapter 4:-   How to reach out to Gitlab support team

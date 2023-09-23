@@ -88,3 +88,67 @@ PDF NOTES:-
 
 
 # Chapter 4:-   How to reach out to Gitlab support team
+-We need to create gitlab repository initially.
+-In KAP, gitlab support is provided which can be helpful to reach out our problems.
+-Before raising issue we can goto documentation(user guide) for problem clarification.
+-If not, then create new item then on tracker click on SUPPORT, we need to write the issue and raise the request.
+-Eg:- A request raised to create a new group for the project.
+-The issue will be hand over to the TIMS where they will provide owner access to the requester and he/she can add new items or give 
+ other members various access.
+-To login gitlab we need to have KPIT credentials.
+
+
+
+# Chapter 5:-   Create new repository and clone repository on local system
+-Click on create project then we need to enter necessary actions like entering name, pub or pvt access and so on..
+-If we have any project in our local system it can be pushed to the repository.
+-For this we need to clone the repository on our local system.
+-There are 2 ways that we can clone the repository. That is 
+ 1.Clone with SSH
+ 2.Clone with HTTPS
+
+Clone with HTTPS:
+-We need to copy the link.
+-Open terminal and type "git clone <link>"
+-Then we need to enter the credentials.
+
+* Similarly there are other platforms where we can perform the tasks such as Git GUI or git bash and so on...
+* We can can commit multiple times and give a single push, also multiple commits and give multiple push simultaneously.
+* While we are interacting directly with our centralized repo we need not to push explicitly.
+* But if we check our local system repo by typing the cmd "ls", we will be not having that particular file. So we need to pull the file 
+  from centralized repo.
+* Since many people will be working on the same repo there will be multiple commits and pushes, so we need to pull initially so that the   new changes will be replicated before doing push to our repo. For this we need to type "git pull origin master"
+* We will be asked with our credentials to enter.
+
+
+An Eg for various scenarious:
+-A file is being modified, deleted and untracked.
+-We need to commit these files.
+-First we need to type the cmd as "git add <filename>"
+-Then commit using "git commit -m "<Any msg>"
+-Finally push the files one by one.
+
+
+# Chapter 6:-   Git reset
+
+There might be a situation where you would require to revert the last commit. Then we can use git reset to revert it.
+-If we type "git log", we will get to see the commits that are committed.
+-If we want to revert any of those commits then we need to type "git reset --hard < Commit Hash(It will be available in logs) >
+-Then push using "git push origin master --force", in this cmd "--force" is required while we reset any commit.
+-But it is not last, we need to goto settings of our repo, under that EXPAND the repo section, then goto protected branches and enable    "Allowed to force push"
+
+# Chapter 7:-   Git Branching and Merge
+
+Git Branching
+
+-Master: This branch contains production code. All development code will be merged into master periodically
+-development/pre-production: This branch contains pre-production code. When the features are finished then they are merged into    
+ development or pre-production branch.
+ Based on requirements of the project during its life-cycle many branches like below can be created 
+-feature: Feature branches can be   
+ created as per the features planngd for release. These branches will get merged in to development branch.
+-hotfix/bug-fix/Issue: Some of the important hotfixes or sometimes bug fixes needs to push in to hot fix branches and then hotfix 
+ branches will get merged in to master and in development or preproduction branch
+-release: Release branches are used to keep version of production releases and bug fixes etc related to release. These branches will 
+ get merged in to master and development branches. First it will go to development branch and then from development it will go to master 
+ for final deployment
